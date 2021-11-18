@@ -1,0 +1,605 @@
+// rojo = #c53211
+rojo = #76004B
+gris =  #2e3830
+grisOscuro = #2A322C
+grisClaro = #56695C
+grisMasClaro = #738D7B
+caqui = #e6dbc9
+caquiOscuro = #B8AFA5
+
+body 
+    background caqui
+    margin 0 !important
+    padding 0 !important
+.container-fluid 
+    padding-top 170px !important
+a
+    color gris
+a:hover 
+    color rojo
+    text-decoration none
+ul 
+    list-style-type none
+h1 
+h2 
+h3 
+h4 
+h5 
+h6 
+    font-display optional
+    // font-family 'Cormorant Garamond' !important
+    font-family 'Oswald'!important
+p  
+    // font-family 'Open Sans'!important
+// .navbar
+.direccionMail
+    font-family 'Oswald'!important
+    text-transform uppercase
+.navbar 
+    z-index 99998
+    width 100%
+    position fixed
+header 
+    z-index 20
+    .navbar-dark
+        background rgba(118, 0, 75, .95) !important
+        // background rgba(187, 32, 17, .95)!important
+        h1
+            color caqui
+            font-family 'Oswald'!important
+            font-size 4em !important
+            font-weight 400  
+            margin-bottom 0!important
+            text-align center !important
+            text-shadow 3px 4px rgba(black, .1)
+        h3 
+            color caquiOscuro
+            letter-spacing 7px
+            margin-top 0px!important
+            margin-left 2px!important
+            text-align center !important
+        .nav-item 
+            a
+                color caqui
+                font-family 'Oswald'!important
+                text-transform uppercase
+            &.active a.nav-link
+                color caqui
+        .nav-item
+            position relative
+            &.active:after
+                font-size 25px
+                font-weight 700
+                color rojo
+                content "\25BC"
+                opacity .95
+                position absolute
+                bottom -32px
+                left 36.5%
+
+section 
+    min-height 500px
+    padding 20px
+#inicio.container-fluid 
+    margin 0!important
+    padding 0!important
+    section 
+        margin-top 50px
+        min-height auto!important
+        #resumen
+            a.boton 
+                border solid 1px gray
+                display block
+                margin-top 5px
+                padding-top 5px
+                text-align center !important
+                text-transform uppercase
+                width 100%
+                &:hover
+                    background rojo
+                    transition .3s
+                    color caqui
+            #sobreGruss
+                div 
+                    min-height 302px
+                    padding 20px
+                    position relative
+                    h3 
+                        line-height 1.5em
+                    h5 
+                        bottom 20px
+                        position absolute
+                        right 20px
+            #poemasGruss
+                margin-top 30px
+                div 
+                    display block
+                    padding 20px
+                    width 100%   
+                    h4 
+                        padding-left 30px
+                        margin-bottom 30px
+                    h5 
+                        line-height 1.3em
+                        padding-left 20px
+                        padding-bottom 5px
+                        white-space nowrap 
+            #puestaIrene
+                margin-top 30px
+        &.cita
+        &.citaFoto    
+            padding 50px!important
+            h3  
+                line-height 40px!important
+        &#biografia
+            padding-top 20px!important
+            padding-bottom 50px!important
+            margin-bottom 0px!important
+        &#sobreIrene 
+            padding-top 100px!important
+            padding-bottom 100px!important
+            margin-bottom 0px!important
+            margin-top 0px!important
+        .btnLeerMasIrene
+            background none
+            border solid 2px caquiOscuro
+            border-radius 7px
+            color caqui
+            display block
+            margin 40px auto 20px!important
+            padding 5px 20px!important
+            text-align center
+            text-transform uppercase
+            transition .3s
+            min-width 130px
+            width 25%
+            &:hover 
+                background caquiOscuro
+                color rojo
+        .btnLeerMasClaro
+            background none
+            border solid 2px caquiOscuro
+            border-radius 7px
+            color caqui
+            display block
+            margin 40px auto 20px!important
+            padding 5px 20px!important
+            text-align center
+            text-transform uppercase
+            transition .3s
+            width 25%
+            &:hover 
+                background rojo
+                color caqui
+        .btnLeerMasOscuro
+            background rojo
+            border solid 2px rojo
+            border-radius 7px
+            color caqui
+            display block
+            margin 40px auto 20px!important
+            padding 5px 20px!important
+            text-align center
+            text-transform uppercase
+            transition .3s
+            width 40%
+            &:hover 
+                background none
+                color rojo
+        &.citaFoto
+            background url('/assets/img/Foto-de-Ricardo-Carcova.jpg') rgba(118, 0, 75, .75) no-repeat
+            background-attachment fixed
+            background-blend-mode multiply
+            .btnLeerMas
+                opacity .6
+#bio.container-fluid 
+    padding-top 20px!important
+    section 
+        padding-top 0
+        margin-top 0 
+        .fotoBio
+            filter grayscale(70%)
+        #fotosGruss
+            a 
+                margin 5px!important
+                .img-thumbnail 
+                    max-width 200px!important
+        #links 
+            ul li 
+                    margin-bottom 15px!important
+                    a
+                        color caqui!important  
+                        &:hover 
+                            text-decoration underline  !important
+#poemas 
+    article
+        border solid 2px caquiOscuro
+        border-radius 4px
+        margin-bottom 20px
+        width 80%
+        iframe 
+            border-bottom solid 2px caquiOscuro
+        h4 
+            font-family sans-serif!important
+            text-align center
+        .txtPoema
+            margin 20px 0 30px 30px!important
+            white-space nowrap
+        .libro 
+            background caquiOscuro
+            padding 10px
+            text-align right
+#porQueGruss 
+    padding-top 20px!important
+#sobreGrus
+    .nav
+        border-right solid 3px grisOscuro
+    button 
+        background none
+        border none !important
+        color grisMasClaro
+        font-family 'Oswald'!important
+        font-size 16px
+        font-weight bold
+        margin 0 
+        padding 5px 20px 10px 0
+        text-align right
+        text-transform uppercase
+        &:hover
+        &.active
+        .nav-link:focus 
+            border none!important
+            color rojo
+            outline none!important
+            box-shadow none !important
+        &.nav-link
+            position relative
+            &.active:after
+                font-family "Font Awesome 5 Free"
+                font-size 20px
+                font-weight 900
+                color gris
+                content "\f0d9"
+                opacity .95
+                position absolute
+                top 3px
+                right -1px
+
+    #txtAulicino
+    #txtLopez 
+        blockquote
+            margin-top 30px
+            padding-left 30px
+        figcaption
+            text-align right
+            margin-bottom 30px
+#contacto
+    background-image url("../img/Irene-Gruss-en-Coney-Island-by-Silvina-Lopez-Medin.jpg")!important
+    background-repeat no-repeat!important
+    background-position top center!important
+    background-size cover!important
+    height calc(100vh - 200px)
+    box-sizing border-box
+    padding-top 0px!important
+    position relative
+    .direccionMail a
+        background rgba(230, 236, 242, .4)
+        border-radius 4px
+        padding 10px
+        &:hover 
+            color grisOscuro
+            text-decoration underline
+    #creditoFoto
+        position absolute 
+        bottom 20px
+        right 20px
+        width 25%
+        min-width 200px
+        text-align right
+        #fotoEscritorio
+            display block
+        #fotoIpad
+            display none
+#proyecto.container-fluid 
+    padding-top 20px!important
+    section 
+        display block  !important
+        height auto !important
+        overflow hidden
+        padding-top 0
+        margin-top 0 
+        .titSeccion 
+            color grisOscuro
+        .puestaSonora 
+            margin-bottom 30px
+            margin-top 30px
+            position relative
+            h4 
+                position absolute
+                top 0
+                left 0
+            iframe 
+                display block
+            .referencia
+                margin 0 25% 50px 
+
+
+#puestaSonora 
+    padding-top 0px!important
+footer 
+    border-top solid 5px grisOscuro  
+    padding 20px
+    img#logoMecenazgo
+        max-width 120px
+        opacity .5
+        width 100%
+    p 
+        color rgb(124, 129, 124)
+    ul 
+        display flex
+        float right
+        justify-content center
+        li 
+            display inline-block
+            white-space nowrap  !important
+            a 
+                color rgb(124, 129, 124)
+                padding 0 10px
+                transition .3s
+                
+                &:hover
+                    color rojo
+    
+
+
+//recuadro
+.recuadro
+    background-image radial-gradient(caquiOscuro 10%, transparent 10%)
+    background-color caqui
+    background-position 0 0, 50px 50px
+    background-size 10px 10px
+    border solid 1px rojo
+    border-radius 10px
+    height auto
+    padding 15px
+    img 
+        border none
+        border-radius 10px
+        margin-bottom 5px
+// boton scrollup
+.back-to-top
+    bottom 5em
+    color grisClaro !important
+    display none
+    padding .5em
+    position fixed
+    right 10px
+    text-decoration none
+    &:hover 
+        color rojo
+// fondos 
+.fondoColor 
+    background rojo
+.fondoClaro 
+    background caqui
+.fondoOscuro
+    background gris
+// textos 
+.noBreak
+    display inline
+.txtBordeClaro
+    -webkit-text-stroke 1px grisClaro /* width and color */
+.txtColor 
+    color rojo
+.txtClaro 
+    color caqui
+.txtClaroMasOscuro
+    color caquiOscuro
+.txtGrisClaro
+    color grisClaro
+.txtGrisMasClaro
+    color grisMasClaro
+.txtOscuro
+    color gris
+.txtSmall 
+    font-size 11px
+.right 
+    float right
+//borde redondeado
+.bordesRedondeados
+    border-radius 4px
+.creditoFoto
+    opacity .7
+    text-align right
+//ipads
+@media (max-width: 768px) 
+    #inicio.container-fluid 
+        section 
+            #resumen
+                #sobreGruss
+                    div 
+                        min-height 185px
+                        padding 20px
+                        position relative
+                        h3 
+                            font-size 1.1em
+                            line-height 1.3em
+                        h5 
+                            bottom 10px
+                            font-size 1.3em
+                            position absolute
+                            right 10px
+                #poemasGruss
+                    margin-top 30px
+                    div 
+                        display block
+                        padding 15px
+                        width 100%   
+                        h4 
+                            font-size 1.2em
+                            padding-left 30px
+                            margin-bottom 10px
+                        h5 
+                            font-size 1em
+                            line-height 1.3em
+                            padding-left 20px
+                            padding-bottom 0
+                            white-space nowrap 
+    #contacto
+        background-image url("../img/club_pen_1971.jpg")!important
+        height calc(100vh - 220px)
+        #creditoFoto
+            min-width 230px
+            #fotoEscritorio
+                display none
+            #fotoIpad
+                background rgba(118, 0, 75, .55)
+                color caqui
+                display block
+                padding 10px
+    #poemas 
+        article 
+            width 100%
+            .txtPoema
+                font-size 13px!important
+            p
+            p.text-right
+                font-size 13px!important
+
+    #proyecto 
+        height calc(100vh + 750px)
+    .back-to-top
+        bottom 8em
+    footer 
+        img#logoMecenazgo
+            margin-left 20px!important
+//celulares            
+@media (max-width: 576px)
+    .container-fluid 
+        padding-top 110px!important
+    #inicio.container-fluid 
+        section 
+            #resumen
+                div 
+                    margin-top 30px!important
+                #poemasGruss
+                    margin-bottom 30px!important
+    #poemas 
+        ul#listaPoemas
+            margin-top 0px!important
+            padding-top 0px!important
+            li a 
+                font-size 1.2em!important
+                line-height 1.9em!important
+        article
+            border solid 2px caquiOscuro
+            border-radius 4px
+            margin-bottom 20px
+            width 80%
+            iframe 
+                border-bottom solid 2px caquiOscuro
+            h4 
+                font-family sans-serif!important
+                text-align center
+            .txtPoema
+                margin 20px 0 30px 30px!important
+                white-space nowrap
+            .libro 
+                background caquiOscuro
+                padding 10px
+                text-align right
+    header 
+        .navbar-dark
+            h1
+                font-size 3em!important
+                text-align left!important
+            h3
+                font-size 1.8em!important
+                letter-spacing 2px
+                text-align left!important
+            .navbar-toggler 
+                color caqui
+                position absolute 
+                top 20px
+                right 30px
+                &:focus
+                    border none
+                    outline none
+                    box-shadow none 
+            .navbar-collapse
+                margin-right 10px
+            i 
+                display none
+    footer
+        #creditos 
+            text-align center 
+    
+    #inicio.container-fluid 
+        section 
+            margin-top 10px
+            &#textoIntro 
+                h3
+                    text-align center
+                    width 100%
+                #firma
+                    float right
+            .btnLeerMasIrene
+            .btnLeerMasClaro
+            .btnLeerMasOscuro
+                width 75%
+
+            &#sobreIrene 
+                padding-top 50px!important
+                padding-bottom 50px!important
+    #sobreGrus
+        .nav
+            border-right none  !important
+            border-bottom solid 3px grisOscuro
+            padding-bottom 20px
+            margin-bottom 20px
+        button 
+            font-size 1.7em!important
+            margin-bottom 10px
+            padding 10px 0!important
+            text-align center
+        #txtAulicino 
+            .lead
+            p
+                font-size 14px!important
+            blockquote
+                font-size 10px
+                margin-top 10px
+                padding-left 10px
+            figcaption
+                font-size 10px
+    #contacto
+        height calc(100vh - 100px)
+        #creditoFoto
+            min-width 230px
+            #fotoEscritorio
+                display none
+            #fotoIpad
+                display block
+    #poemas 
+        .col-12 
+            padding-right 5px!important
+            padding-left 5px!important
+        article 
+            width 100%!important
+            .txtPoema
+                font-size 12.5px!important
+                margin-left 5px!important
+            p.text-right
+                font-size 11px!important
+    #proyecto
+        height calc(100vh + 1600px)
+    .back-to-top
+        bottom 10em
+    #sobreGrus
+        button 
+            font-size 12px
+            &.active
+                text-decoration underline
+            &.nav-link
+                &.active:after
+                    content " "

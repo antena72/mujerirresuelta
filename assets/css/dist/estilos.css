@@ -1,0 +1,708 @@
+body {
+  background: #e6dbc9;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.container-fluid {
+  padding-top: 170px !important;
+}
+a {
+  color: #2e3830;
+}
+a:hover {
+  color: #76004b;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-display: optional;
+  font-family: 'Oswald' !important;
+}
+.direccionMail {
+  font-family: 'Oswald' !important;
+  text-transform: uppercase;
+}
+.navbar {
+  z-index: 99998;
+  width: 100%;
+  position: fixed;
+}
+header {
+  z-index: 20;
+}
+header .navbar-dark {
+  background: rgba(118,0,75,0.95) !important;
+}
+header .navbar-dark h1 {
+  color: #e6dbc9;
+  font-family: 'Oswald' !important;
+  font-size: 4em !important;
+  font-weight: 400;
+  margin-bottom: 0 !important;
+  text-align: center !important;
+  text-shadow: 3px 4px rgba(0,0,0,0.1);
+}
+header .navbar-dark h3 {
+  color: #b8afa5;
+  letter-spacing: 7px;
+  margin-top: 0px !important;
+  margin-left: 2px !important;
+  text-align: center !important;
+}
+header .navbar-dark .nav-item a {
+  color: #e6dbc9;
+  font-family: 'Oswald' !important;
+  text-transform: uppercase;
+}
+header .navbar-dark .nav-item.active a.nav-link {
+  color: #e6dbc9;
+}
+header .navbar-dark .nav-item {
+  position: relative;
+}
+header .navbar-dark .nav-item.active:after {
+  font-size: 25px;
+  font-weight: 700;
+  color: #76004b;
+  content: "\25BC";
+  opacity: 0.95;
+  position: absolute;
+  bottom: -32px;
+  left: 36.5%;
+}
+section {
+  min-height: 500px;
+  padding: 20px;
+}
+#inicio.container-fluid {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+#inicio.container-fluid section {
+  margin-top: 50px;
+  min-height: auto !important;
+}
+#inicio.container-fluid section #resumen a.boton {
+  border: solid 1px #808080;
+  display: block;
+  margin-top: 5px;
+  padding-top: 5px;
+  text-align: center !important;
+  text-transform: uppercase;
+  width: 100%;
+}
+#inicio.container-fluid section #resumen a.boton:hover {
+  background: #76004b;
+  transition: 0.3s;
+  color: #e6dbc9;
+}
+#inicio.container-fluid section #resumen #sobreGruss div {
+  min-height: 302px;
+  padding: 20px;
+  position: relative;
+}
+#inicio.container-fluid section #resumen #sobreGruss div h3 {
+  line-height: 1.5em;
+}
+#inicio.container-fluid section #resumen #sobreGruss div h5 {
+  bottom: 20px;
+  position: absolute;
+  right: 20px;
+}
+#inicio.container-fluid section #resumen #poemasGruss {
+  margin-top: 30px;
+}
+#inicio.container-fluid section #resumen #poemasGruss div {
+  display: block;
+  padding: 20px;
+  width: 100%;
+}
+#inicio.container-fluid section #resumen #poemasGruss div h4 {
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+#inicio.container-fluid section #resumen #poemasGruss div h5 {
+  line-height: 1.3em;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  white-space: nowrap;
+}
+#inicio.container-fluid section #resumen #puestaIrene {
+  margin-top: 30px;
+}
+#inicio.container-fluid section.cita,
+#inicio.container-fluid section.citaFoto {
+  padding: 50px !important;
+}
+#inicio.container-fluid section.cita h3,
+#inicio.container-fluid section.citaFoto h3 {
+  line-height: 40px !important;
+}
+#inicio.container-fluid section#biografia {
+  padding-top: 20px !important;
+  padding-bottom: 50px !important;
+  margin-bottom: 0px !important;
+}
+#inicio.container-fluid section#sobreIrene {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+}
+#inicio.container-fluid section .btnLeerMasIrene {
+  background: none;
+  border: solid 2px #b8afa5;
+  border-radius: 7px;
+  color: #e6dbc9;
+  display: block;
+  margin: 40px auto 20px !important;
+  padding: 5px 20px !important;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.3s;
+  min-width: 130px;
+  width: 25%;
+}
+#inicio.container-fluid section .btnLeerMasIrene:hover {
+  background: #b8afa5;
+  color: #76004b;
+}
+#inicio.container-fluid section .btnLeerMasClaro {
+  background: none;
+  border: solid 2px #b8afa5;
+  border-radius: 7px;
+  color: #e6dbc9;
+  display: block;
+  margin: 40px auto 20px !important;
+  padding: 5px 20px !important;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.3s;
+  width: 25%;
+}
+#inicio.container-fluid section .btnLeerMasClaro:hover {
+  background: #76004b;
+  color: #e6dbc9;
+}
+#inicio.container-fluid section .btnLeerMasOscuro {
+  background: #76004b;
+  border: solid 2px #76004b;
+  border-radius: 7px;
+  color: #e6dbc9;
+  display: block;
+  margin: 40px auto 20px !important;
+  padding: 5px 20px !important;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.3s;
+  width: 40%;
+}
+#inicio.container-fluid section .btnLeerMasOscuro:hover {
+  background: none;
+  color: #76004b;
+}
+#inicio.container-fluid section.citaFoto {
+  background: url("/assets/img/Foto-de-Ricardo-Carcova.jpg") rgba(118,0,75,0.75) no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+}
+#inicio.container-fluid section.citaFoto .btnLeerMas {
+  opacity: 0.6;
+}
+#bio.container-fluid {
+  padding-top: 20px !important;
+}
+#bio.container-fluid section {
+  padding-top: 0;
+  margin-top: 0;
+}
+#bio.container-fluid section .fotoBio {
+  filter: grayscale(70%);
+}
+#bio.container-fluid section #fotosGruss a {
+  margin: 5px !important;
+}
+#bio.container-fluid section #fotosGruss a .img-thumbnail {
+  max-width: 200px !important;
+}
+#bio.container-fluid section #links ul li {
+  margin-bottom: 15px !important;
+}
+#bio.container-fluid section #links ul li a {
+  color: #e6dbc9 !important;
+}
+#bio.container-fluid section #links ul li a:hover {
+  text-decoration: underline !important;
+}
+#poemas article {
+  border: solid 2px #b8afa5;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+#poemas article iframe {
+  border-bottom: solid 2px #b8afa5;
+}
+#poemas article h4 {
+  font-family: sans-serif !important;
+  text-align: center;
+}
+#poemas article .txtPoema {
+  margin: 20px 0 30px 30px !important;
+  white-space: nowrap;
+}
+#poemas article .libro {
+  background: #b8afa5;
+  padding: 10px;
+  text-align: right;
+}
+#porQueGruss {
+  padding-top: 20px !important;
+}
+#sobreGrus .nav {
+  border-right: solid 3px #2a322c;
+}
+#sobreGrus button {
+  background: none;
+  border: none !important;
+  color: #738d7b;
+  font-family: 'Oswald' !important;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 5px 20px 10px 0;
+  text-align: right;
+  text-transform: uppercase;
+}
+#sobreGrus button:hover,
+#sobreGrus button.active,
+#sobreGrus button .nav-link:focus {
+  border: none !important;
+  color: #76004b;
+  outline: none !important;
+  box-shadow: none !important;
+}
+#sobreGrus button.nav-link {
+  position: relative;
+}
+#sobreGrus button.nav-link.active:after {
+  font-family: "Font Awesome 5 Free";
+  font-size: 20px;
+  font-weight: 900;
+  color: #2e3830;
+  content: "\f0d9";
+  opacity: 0.95;
+  position: absolute;
+  top: 3px;
+  right: -1px;
+}
+#sobreGrus #txtAulicino blockquote,
+#sobreGrus #txtLopez blockquote {
+  margin-top: 30px;
+  padding-left: 30px;
+}
+#sobreGrus #txtAulicino figcaption,
+#sobreGrus #txtLopez figcaption {
+  text-align: right;
+  margin-bottom: 30px;
+}
+#contacto {
+  background-image: url("../img/Irene-Gruss-en-Coney-Island-by-Silvina-Lopez-Medin.jpg") !important;
+  background-repeat: no-repeat !important;
+  background-position: top center !important;
+  background-size: cover !important;
+  height: calc(100vh - 200px);
+  box-sizing: border-box;
+  padding-top: 0px !important;
+  position: relative;
+}
+#contacto .direccionMail a {
+  background: rgba(230,236,242,0.4);
+  border-radius: 4px;
+  padding: 10px;
+}
+#contacto .direccionMail a:hover {
+  color: #2a322c;
+  text-decoration: underline;
+}
+#contacto #creditoFoto {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 25%;
+  min-width: 200px;
+  text-align: right;
+}
+#contacto #creditoFoto #fotoEscritorio {
+  display: block;
+}
+#contacto #creditoFoto #fotoIpad {
+  display: none;
+}
+#proyecto.container-fluid {
+  padding-top: 20px !important;
+}
+#proyecto.container-fluid section {
+  display: block !important;
+  height: auto !important;
+  overflow: hidden;
+  padding-top: 0;
+  margin-top: 0;
+}
+#proyecto.container-fluid section .titSeccion {
+  color: #2a322c;
+}
+#proyecto.container-fluid section .puestaSonora {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  position: relative;
+}
+#proyecto.container-fluid section .puestaSonora h4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#proyecto.container-fluid section .puestaSonora iframe {
+  display: block;
+}
+#proyecto.container-fluid section .puestaSonora .referencia {
+  margin: 0 25% 50px;
+}
+#puestaSonora {
+  padding-top: 0px !important;
+}
+footer {
+  border-top: solid 5px #2a322c;
+  padding: 20px;
+}
+footer img#logoMecenazgo {
+  max-width: 120px;
+  opacity: 0.5;
+  width: 100%;
+}
+footer p {
+  color: #7c817c;
+}
+footer ul {
+  display: flex;
+  float: right;
+  justify-content: center;
+}
+footer ul li {
+  display: inline-block;
+  white-space: nowrap !important;
+}
+footer ul li a {
+  color: #7c817c;
+  padding: 0 10px;
+  transition: 0.3s;
+}
+footer ul li a:hover {
+  color: #76004b;
+}
+.recuadro {
+  background-image: radial-gradient(#b8afa5 10%, transparent 10%);
+  background-color: #e6dbc9;
+  background-position: 0 0, 50px 50px;
+  background-size: 10px 10px;
+  border: solid 1px #76004b;
+  border-radius: 10px;
+  height: auto;
+  padding: 15px;
+}
+.recuadro img {
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.back-to-top {
+  bottom: 5em;
+  color: #56695c !important;
+  display: none;
+  padding: 0.5em;
+  position: fixed;
+  right: 10px;
+  text-decoration: none;
+}
+.back-to-top:hover {
+  color: #76004b;
+}
+.fondoColor {
+  background: #76004b;
+}
+.fondoClaro {
+  background: #e6dbc9;
+}
+.fondoOscuro {
+  background: #2e3830;
+}
+.noBreak {
+  display: inline;
+}
+.txtBordeClaro {
+  -webkit-text-stroke: 1px #56695c /* width and color */;
+}
+.txtColor {
+  color: #76004b;
+}
+.txtClaro {
+  color: #e6dbc9;
+}
+.txtClaroMasOscuro {
+  color: #b8afa5;
+}
+.txtGrisClaro {
+  color: #56695c;
+}
+.txtGrisMasClaro {
+  color: #738d7b;
+}
+.txtOscuro {
+  color: #2e3830;
+}
+.txtSmall {
+  font-size: 11px;
+}
+.right {
+  float: right;
+}
+.bordesRedondeados {
+  border-radius: 4px;
+}
+.creditoFoto {
+  opacity: 0.7;
+  text-align: right;
+}
+@media (max-width: 768px) {
+  #inicio.container-fluid section #resumen #sobreGruss div {
+    min-height: 185px;
+    padding: 20px;
+    position: relative;
+  }
+  #inicio.container-fluid section #resumen #sobreGruss div h3 {
+    font-size: 1.1em;
+    line-height: 1.3em;
+  }
+  #inicio.container-fluid section #resumen #sobreGruss div h5 {
+    bottom: 10px;
+    font-size: 1.3em;
+    position: absolute;
+    right: 10px;
+  }
+  #inicio.container-fluid section #resumen #poemasGruss {
+    margin-top: 30px;
+  }
+  #inicio.container-fluid section #resumen #poemasGruss div {
+    display: block;
+    padding: 15px;
+    width: 100%;
+  }
+  #inicio.container-fluid section #resumen #poemasGruss div h4 {
+    font-size: 1.2em;
+    padding-left: 30px;
+    margin-bottom: 10px;
+  }
+  #inicio.container-fluid section #resumen #poemasGruss div h5 {
+    font-size: 1em;
+    line-height: 1.3em;
+    padding-left: 20px;
+    padding-bottom: 0;
+    white-space: nowrap;
+  }
+  #contacto {
+    background-image: url("../img/club_pen_1971.jpg") !important;
+    height: calc(100vh - 220px);
+  }
+  #contacto #creditoFoto {
+    min-width: 230px;
+  }
+  #contacto #creditoFoto #fotoEscritorio {
+    display: none;
+  }
+  #contacto #creditoFoto #fotoIpad {
+    background: rgba(118,0,75,0.55);
+    color: #e6dbc9;
+    display: block;
+    padding: 10px;
+  }
+  #poemas article {
+    width: 100%;
+  }
+  #poemas article .txtPoema {
+    font-size: 13px !important;
+  }
+  #poemas article p,
+  #poemas article p.text-right {
+    font-size: 13px !important;
+  }
+  #proyecto {
+    height: calc(100vh + 750px);
+  }
+  .back-to-top {
+    bottom: 8em;
+  }
+  footer img#logoMecenazgo {
+    margin-left: 20px !important;
+  }
+}
+@media (max-width: 576px) {
+  .container-fluid {
+    padding-top: 110px !important;
+  }
+  #inicio.container-fluid section #resumen div {
+    margin-top: 30px !important;
+  }
+  #inicio.container-fluid section #resumen #poemasGruss {
+    margin-bottom: 30px !important;
+  }
+  #poemas ul#listaPoemas {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+  }
+  #poemas ul#listaPoemas li a {
+    font-size: 1.2em !important;
+    line-height: 1.9em !important;
+  }
+  #poemas article {
+    border: solid 2px #b8afa5;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  #poemas article iframe {
+    border-bottom: solid 2px #b8afa5;
+  }
+  #poemas article h4 {
+    font-family: sans-serif !important;
+    text-align: center;
+  }
+  #poemas article .txtPoema {
+    margin: 20px 0 30px 30px !important;
+    white-space: nowrap;
+  }
+  #poemas article .libro {
+    background: #b8afa5;
+    padding: 10px;
+    text-align: right;
+  }
+  header .navbar-dark h1 {
+    font-size: 3em !important;
+    text-align: left !important;
+  }
+  header .navbar-dark h3 {
+    font-size: 1.8em !important;
+    letter-spacing: 2px;
+    text-align: left !important;
+  }
+  header .navbar-dark .navbar-toggler {
+    color: #e6dbc9;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+  }
+  header .navbar-dark .navbar-toggler:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+  header .navbar-dark .navbar-collapse {
+    margin-right: 10px;
+  }
+  header .navbar-dark i {
+    display: none;
+  }
+  footer #creditos {
+    text-align: center;
+  }
+  #inicio.container-fluid section {
+    margin-top: 10px;
+  }
+  #inicio.container-fluid section#textoIntro h3 {
+    text-align: center;
+    width: 100%;
+  }
+  #inicio.container-fluid section#textoIntro #firma {
+    float: right;
+  }
+  #inicio.container-fluid section .btnLeerMasIrene,
+  #inicio.container-fluid section .btnLeerMasClaro,
+  #inicio.container-fluid section .btnLeerMasOscuro {
+    width: 75%;
+  }
+  #inicio.container-fluid section#sobreIrene {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  #sobreGrus .nav {
+    border-right: none !important;
+    border-bottom: solid 3px #2a322c;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  #sobreGrus button {
+    font-size: 1.7em !important;
+    margin-bottom: 10px;
+    padding: 10px 0 !important;
+    text-align: center;
+  }
+  #sobreGrus #txtAulicino .lead,
+  #sobreGrus #txtAulicino p {
+    font-size: 14px !important;
+  }
+  #sobreGrus #txtAulicino blockquote {
+    font-size: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+  #sobreGrus #txtAulicino figcaption {
+    font-size: 10px;
+  }
+  #contacto {
+    height: calc(100vh - 100px);
+  }
+  #contacto #creditoFoto {
+    min-width: 230px;
+  }
+  #contacto #creditoFoto #fotoEscritorio {
+    display: none;
+  }
+  #contacto #creditoFoto #fotoIpad {
+    display: block;
+  }
+  #poemas .col-12 {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+  }
+  #poemas article {
+    width: 100% !important;
+  }
+  #poemas article .txtPoema {
+    font-size: 12.5px !important;
+    margin-left: 5px !important;
+  }
+  #poemas article p.text-right {
+    font-size: 11px !important;
+  }
+  #proyecto {
+    height: calc(100vh + 1600px);
+  }
+  .back-to-top {
+    bottom: 10em;
+  }
+  #sobreGrus button {
+    font-size: 12px;
+  }
+  #sobreGrus button.active {
+    text-decoration: underline;
+  }
+  #sobreGrus button.nav-link.active:after {
+    content: " ";
+  }
+}
